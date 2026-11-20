@@ -641,6 +641,7 @@ h2 em {
 
   .hero-art img{
     border-radius: 10px;
+    height: 100%;
   }
 }
 
@@ -898,4 +899,17 @@ h2 em {
   }
 }
 
-.hero-art{height:auto;aspect-ratio:4/5;overflow:hidden;background:transparent}.hero-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-art {
+  width: 400px;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: transparent;
+}
+
+.hero-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
